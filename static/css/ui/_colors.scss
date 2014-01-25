@@ -1,0 +1,47 @@
+/********************************************
+Font-face declarations and basic font styles
+********************************************/
+
+.gray-background {
+	color: $white;
+	background: $gray;
+}
+
+.green-background {
+	background: $green;
+	color: $white;
+}
+
+.dark-green-background {
+	background: $dark-green;
+	color: $white;
+}
+
+.pink-background {
+	color: $white;
+	background: $pink;
+}
+
+.yellow-background {
+	background: $yellow;
+}
+
+.orange-background {
+	background: $orange;
+}
+
+.white-background {
+	background: $white;
+}
+
+.green {
+	color: $green;
+}
+
+.pink {
+	color: $pink;
+}
+
+.dark-green {
+	color: $dark-green;
+}

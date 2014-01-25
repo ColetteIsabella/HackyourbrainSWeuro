@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/*------------------------------------*\
+    STYLE.CSS
+\*------------------------------------*/
+/**
+ *
+ * sass --watch style.scss:style.min.css --style compressed
+ *
+ * Here we pull in some variables, include the inuit.css framework, then add our
+ * project-specific components afterwards.
+ */
+
+
+/**
+ * Setup
+ */
+@import "vars";
+@import "inuit.css/inuit";
+
+
+
+
+
+/**
+ * Import custom UI
+ */
+ @import "ui/colors";
+ @import "ui/typography";
+ @import "ui/base";
+ @import "ui/body";
+ @import "ui/header";
+ @import "ui/nav";
+ @import "ui/content";
+ @import "ui/footer";
+
+/** Import specific views **/
+ @import "ui/frontpage";
+ @import "ui/profile";
+ @import "ui/challenges";
+

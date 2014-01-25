@@ -1,0 +1,38 @@
+/********************************************
+Landing page styles
+********************************************/
+
+#intro {
+	padding-bottom: 2em;
+}
+
+.call-to-action {
+	text-align: center;
+
+	.get-started {
+	padding: .5em;
+
+	&:hover {
+		background: lighten($gray, 5%);
+	}
+
+	@include breakpoint (tablet) {
+		margin-top: 25%;
+	}
+	}
+}
+
+#more-information {
+	padding-top: 2em;
+
+	h2 {
+		text-align: center;
+		position: relative;
+
+		&:before {
+			content: "> ";
+			top: .5em;
+			left: 0;
+		}
+	}
+}

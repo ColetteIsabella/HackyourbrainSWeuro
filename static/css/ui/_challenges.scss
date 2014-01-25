@@ -1,0 +1,20 @@
+/********************************************
+Font-face declarations and basic font styles
+********************************************/
+
+@font-face {
+	font-family: 'Code-Bold';
+	src: url('fonts/code/Code-Bold.eot') format('eot'), 
+	     url('fonts/code/Code-Bold.otf')  format('opentype'),
+	     url('fonts/code/Code-Bold.woff') format('woff'), 
+	     url('fonts/code/Code-Bold.ttf')  format('truetype'),
+	     url('fonts/code/Code-Bold.svg#Code-Bold') format('svg');
+}
+
+$serif: "Georgia", serif;
+$sans-serif: "Open Sans", sans-serif;
+$headlines: "Nixie One", serif;
+
+.center {
+	text-align: center;
+}

@@ -1,0 +1,119 @@
+/*------------------------------------*\
+    VARS.SCSS
+\*------------------------------------*/
+/**
+ * Any variables you find set in inuit.css’ `_vars.scss` that you do not wish to
+ * keep, simply redefine here. This means that if inuit.css, for example, sets
+ * your `$base-font-size` at 16px and you wish it to be 14px, simply redeclare
+ * that variable in this file. inuit.css ignores its own variables in favour of
+ * using your own, so you can completely modify how inuit.css works without ever
+ * having to alter the framework itself.
+ */
+
+
+
+
+
+/*------------------------------------*\
+    $OBJECTS-AND-ABSTRACTIONS
+\*------------------------------------*/
+/**
+ * All of inuit.css’ objects and abstractions are initially turned off by
+ * default. This means that you start any project with as little as possible,
+ * and introducing objects and abstractions is as simple as switching the
+ * following variables to `true`.
+ */
+$responsive:		true;
+$use-grids:         true;
+$use-flexbox:       false;
+$use-columns:       false;
+$use-nav:           true;
+$use-options:       true;
+$use-pagination:    false;
+$use-breadcrumb:    true;
+$use-media:         false;
+$use-marginalia:    false;
+$use-island:        false;
+$use-block-list:    false;
+$use-matrix:        false;
+$use-split:         true;
+$use-this-or-this:  false;
+$use-link-complex:  false;
+$use-flyout:        true;
+$use-arrows:        false;
+$use-sprite:        false;
+$use-icon-text:     false;
+$use-beautons:      true;
+$use-lozenges:      true;
+$use-rules:         true;
+$use-stats:         true;
+$use-greybox:       false;
+
+
+
+
+
+/*------------------------------------*\
+    $OVERRIDES
+\*------------------------------------*/
+/**
+ * Place any variables that should override inuit.css’ defaults here.
+ */
+
+
+
+
+
+/*------------------------------------*\
+    $CUSTOM
+\*------------------------------------*/
+
+/* TYPOGRAPHY */
+$serif: "Georgia", serif;
+$sans-serif: "PT Sans", sans-serif;
+$slab-serif: "Arvo", serif;
+
+/* COLORS */
+$gray: #353535;
+$medium-gray: #353535;
+$light-gray: #dedede;
+$white: #fff;
+
+$green:	#1abc9c;
+$pink:	#e74c3c;
+$dark-green: #16a085;
+$yellow: rgb(251,207,97);
+$orange: rgb(241,198,93);
+
+/****** Breakpoints *********/
+$palm:			480px;
+$tablet:		768px;
+$laptop:		1140px;
+$palm-end:		$tablet - 1px;
+$tablet-end:	$laptop - 1px;
+
+
+/****** Mixins *************/
+
+@mixin breakpoint($media-query){
+
+    @if $media-query == palm{
+
+        @media only screen and (max-width:$palm-end) { @content; }
+
+    }
+
+    @if $media-query == tablet{
+
+        @media only screen and (min-width: $tablet) { @content; }
+    }
+
+    @if $media-query == mobile{
+        @media only screen and (max-width: $tablet-end) { @content; }
+    }
+
+    @if $media-query == laptop{
+
+        @media only screen and (min-width: $laptop) { @content; }
+    }
+}

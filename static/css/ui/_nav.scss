@@ -1,0 +1,46 @@
+.nav__toggle {
+	text-decoration: none;
+	font-size: 2em;
+	position: absolute;
+	top: 0;
+	right: 1em;
+}
+
+nav {
+	display: none;
+
+	.nav {
+		display: none;
+
+		ul {
+			list-style-type: none;
+			text-align: center;
+
+			li {
+				padding: 0 1em;
+				display: block;
+			}
+		}
+	}
+}
+
+@include breakpoint ( tablet) {
+	.nav__toggle {
+		display: none;
+		position: relative;
+	}
+
+	nav {
+		display: block;
+
+			ul {
+				text-align: right;
+				padding-top: .8em;
+
+				li {
+					display: inline-block;
+					padding: 0 1em;
+				}
+			}
+		}
+}
