@@ -1,20 +1,15 @@
 /********************************************
-Font-face declarations and basic font styles
+Challenge page specific styles
 ********************************************/
+.add-button {
+	padding-top: 1em;
 
-@font-face {
-	font-family: 'Code-Bold';
-	src: url('fonts/code/Code-Bold.eot') format('eot'), 
-	     url('fonts/code/Code-Bold.otf')  format('opentype'),
-	     url('fonts/code/Code-Bold.woff') format('woff'), 
-	     url('fonts/code/Code-Bold.ttf')  format('truetype'),
-	     url('fonts/code/Code-Bold.svg#Code-Bold') format('svg');
+	a {
+		padding: .2em .3em;
+		border-radius: 4px;
+	}
 }
 
-$serif: "Georgia", serif;
-$sans-serif: "Open Sans", sans-serif;
-$headlines: "Nixie One", serif;
-
-.center {
-	text-align: center;
+.new-challenge {
+	display: none;
 }
