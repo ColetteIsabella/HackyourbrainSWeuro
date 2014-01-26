@@ -4,6 +4,14 @@ Profile-specific CSS
 
 #profile {
 
+	.page-header {
+		border-bottom: 1px solid $purple;
+
+		h1, p {
+			margin-bottom: .3em;
+		}
+	}
+
 	.privacy {
 		padding-top: .8em;
 	}
@@ -17,9 +25,17 @@ Profile-specific CSS
 	}
 
 	#stats {
-		border-top: 1px solid $light-gray;
-		border-bottom: 1px solid $light-gray;
 		padding-top: 3em;
+		margin-bottom: 3em;
+	}
+
+	.monster {
+		background: $purple;
+		border-radius: 4px;
+		max-width: 10em;
+		margin-top: 5em;
+		margin-left: 2em;
+		padding: 1em;
 	}
 
 	#challenges {
@@ -29,11 +45,12 @@ Profile-specific CSS
 	.challenge--header {
 		padding-bottom: .5em;
 		border-bottom: 1px solid $light-gray;
-		margin-bottom: 1.5em;
 	}
 
 	.challenge {
 		ul { margin: 0; }
+		border-bottom: 1px solid $light-gray;
+		padding: 1.5em 0;
 	}
 }
 

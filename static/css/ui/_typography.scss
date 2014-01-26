@@ -16,7 +16,7 @@ Font-face declarations and basic font styles
 
 $serif: "Georgia", serif;
 $sans-serif: "Open Sans", sans-serif;
-$headlines: "Open Sans", serif;
+$headlines: "Exo 2", serif;
 
 .center {
 	text-align: center;
@@ -28,7 +28,6 @@ $headlines: "Open Sans", serif;
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: $headlines;
-	font-weight: 700;
 }
 
 h1,.alpha{

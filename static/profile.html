@@ -4,15 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, minimum-scale=1.0">
     
-    <title>Zarkadon</title>
+    <title>Zarkadan</title>
     
     <!--Load styles-->
     <link rel="stylesheet" href="css/build/style.css">
 
     <!--Load Google Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Exo+2:800' rel='stylesheet' type='text/css'>
 
     <!--Load Font Awesome (integrate for production-->
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
@@ -42,8 +41,10 @@
 	<div id="container" class="purple-background">
 		<div class="inner-container grid wrap">
 			<div id="profile" class="white-background box">
-				<h1 class="grid__item two-thirds hard--left">My Progress</h1><!--
-			 --><p class="grid__item one-third privacy">Privacy: <strong>Public</strong> | <a href="#">Edit Profile</a></p>
+				<header class="page-header grid__item one-whole hard--left">
+					<h1 class="grid__item two-thirds hard--left">My Progress</h1><!--
+				 --><p class="grid__item one-third privacy">Privacy: <strong>Public</strong> | <a href="#">Edit Profile</a></p>
+			 </header>
 			 	<section id="summary">
 			 		<div class="grid__item two-thirds hard--left">
 			 			<section id="challenges">
@@ -77,26 +78,62 @@
 					 				<a href="#">Delete</a>
 					 			</div>
 					 		</div>
+					 		<div class="challenge">
+					 			<div class="grid__item two-fifths hard--left">
+					 				<p>I will meet <strong>one</strong> new person every week.</p>
+					 			</div><!--
+					 	 	 --><div class="grid__item two-fifths">
+					 				<ul class="inline">
+					 					<li><a class="fa fa-check fw green-background round"></a></li>
+					 					<li><a class="fa fa-check fw green-background round"></a></li>
+					 				</ul>
+					 				<p class="light-gray"><strong>5</strong> check-ins required</p>
+					 			</div><!--
+					 		 --><div class="grid__item one-fifth">
+					 				<a href="#">Edit</a><br/>
+					 				<a href="#">Delete</a>
+					 			</div>
+					 		</div>
 					 	</section>
 			 		</div><!--
 			 	 --><div class="grid__item one-third">
-			 			<p>[Image of Zarkadan here]</p>
+			 			<img src="images/zarkadann2.png" class="monster">
+			 			<p>Zarkadan will grow a body soon! We have artists working hard to fill him out.</p>
 			 		</div>
 			 	</section>
 			 	<section id="stats">
 			 		<h3>My Achievements</h3>
 			 		<div class="grid__item one-third hard--left">
-			 			<h4 class="hard--left">Monsters Defeated</h4>
+			 			<p class="hard--left"><strong>Monsters Defeated</strong></p>
 			 			<p class="padding--left"><a class="round--number kilo purple-background">3</a></p>
 			 		</div><!--
 			 	 --><div class="grid__item two-thirds">
-			 			<h4>Badges Earned</h4>
+			 			<p><strong>Badges Earned</strong></p>
 
 			 			<ul class="inline">
 			 				<li><a class="round alpha dark-yellow-background fa fa-heart fw badge"></a></li>
 			 				<li><a class="round alpha green-background fa fa-leaf fw badge"></a></li>
 			 			</ul>
 			 		</div>
+			 	</section>
+			 	<section id="past-challenges">
+			 		<h3>Past Challenges</h3>
+			 			<div class="challenge--header">
+					 			<div class="grid__item two-thirds hard--left">
+					 				<strong>Challenge</strong>
+					 			</div><!--
+					 	 	 --><div class="grid__item one-third">
+					 				<strong>Status</strong>
+					 			</div>
+					 		</div>
+					 		<div class="challenge">
+					 			<div class="grid__item two-thirds hard--left">
+					 				<p>I will finish two tasks in a row without procrastinating.</p>
+					 			</div><!--
+					 	 	 --><div class="grid__item one-third">
+					 				<p><a class="fa fa-check fw green-background round"></a> <strong>Defeated</strong></p>
+					 			</div>
+					 		</div>
 			 	</section>
 			</div>
 		</div>
