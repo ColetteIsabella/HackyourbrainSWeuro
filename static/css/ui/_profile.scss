@@ -3,5 +3,21 @@ Profile-specific CSS
 ********************************************/
 
 #profile {
-	padding: 2em; 
+
+	.privacy {
+		padding-top: .8em;
+	}
+
+	.profile-image {
+		color: $white;
+		background: $green;
+		border-radius: 50%;
+		padding: .3em;
+		margin-bottom: .3em;
+	}
+
+	#stats {
+		border-top: 1px solid $light-gray;
+		border-bottom: 1px solid $light-gray;
+	}
 }
