@@ -32,20 +32,30 @@ Font-face declarations and basic font styles
 	background: $yellow;
 }
 
-.orange-background {
+.dark-yellow-background {
 	background: $orange;
+	color: $white;
 }
 
 .white-background {
 	background: $white;
+	color: $dark-purple;
 }
 
 .purple-background {
 	background: $purple;
 	color: $white;
-	border: darken($purple, 5%);
 }
 
+.dark-purple-background {
+	background: $dark-purple;
+	color: $white;
+}
+
+.light-purple-background {
+	background: $purple;
+	color: $dark-purple;
+}
 .green {
 	color: $green;
 }

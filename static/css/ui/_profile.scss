@@ -19,7 +19,11 @@ Profile-specific CSS
 	#stats {
 		border-top: 1px solid $light-gray;
 		border-bottom: 1px solid $light-gray;
-		padding-top: 1em;
+		padding-top: 3em;
+	}
+
+	#challenges {
+		padding-top: 2em;
 	}
 
 	.challenge--header {

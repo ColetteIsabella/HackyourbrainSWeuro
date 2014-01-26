@@ -1,0 +1,17 @@
+a.purple-background {
+	&:hover {
+		background: lighten($purple, 5%);
+	}
+}
+
+a.dark-purple-background {
+	&:hover {
+		background: lighten($dark-purple, 5%);
+	}
+}
+
+a.light-purple-background {
+	&:hover {
+		background: lighten($light-purple, 5%);
+	}
+}
