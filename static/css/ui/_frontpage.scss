@@ -3,41 +3,37 @@ Landing page styles
 ********************************************/
 
 #intro {
-	padding: 3em 0;
+	padding: 5em 0;
 
-	.tagline {
-		margin-top: 15%;
+	h1 {
+		padding-bottom: .7em;
+	}
+
+	p {
+		padding: 2em;
+
+		@include breakpoint( tablet ) {
+			padding: 2em 8em;
+		}
 	}
 }
 
-.call-to-action {
-	text-align: center;
 
-	.get-started {
+.get-started {
 	padding: .5em;
 
 	&:hover {
 		background: lighten($gray, 5%);
 	}
-
-	@include breakpoint (tablet) {
-		margin-top: 25%;
-		margin-bottom: 25%;
-	}
-	}
 }
 
 #more-information {
-	padding-top: 2em;
+	padding: 3em 0 5em 0;
+	text-align: center;
+}
 
-	h2 {
-		text-align: center;
-		position: relative;
-
-		&:before {
-			content: "> ";
-			top: .5em;
-			left: 0;
-		}
-	}
+.round {
+	padding: .3em;
+	border-radius: 50%;
+	border: 1px solid $dark-green;
 }

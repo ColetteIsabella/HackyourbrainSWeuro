@@ -1,12 +1,32 @@
 /********************************************
 Challenge page specific styles
 ********************************************/
+
+.assessment {
+	
+	margin-bottom: 4em;
+	font-weight: bold;
+
+	tr {
+
+		td {
+			text-align: center;
+
+			&:first-child {
+				text-align: left;
+				font-weight: normal;
+			}
+		}
+	}
+}
+
 .add-button {
 	padding-top: 1em;
 
 	a {
 		padding: .2em .3em;
 		border-radius: 4px;
+		cursor: pointer;
 	}
 }
 

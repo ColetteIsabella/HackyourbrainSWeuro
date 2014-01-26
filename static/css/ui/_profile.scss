@@ -19,5 +19,29 @@ Profile-specific CSS
 	#stats {
 		border-top: 1px solid $light-gray;
 		border-bottom: 1px solid $light-gray;
+		padding-top: 1em;
 	}
+
+	.challenge--header {
+		padding-bottom: .5em;
+		border-bottom: 1px solid $light-gray;
+		margin-bottom: 1.5em;
+	}
+
+	.challenge {
+		ul { margin: 0; }
+	}
+}
+
+.round--number {
+	padding: 0 .4em;
+	border-radius: 50%;
+}
+
+.padding--left {
+	padding-left: 3em;
+}
+
+.badge {
+	border: 0;
 }

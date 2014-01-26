@@ -17,6 +17,11 @@ html, body {
 	width: 100%;
 	padding-top: 2em;
 }
+
+.inner-container {
+	margin: 0 10%;
+}
+
 .first {
 	padding-left: 0;
 }
@@ -26,12 +31,16 @@ html, body {
 	padding: 2em;
 }
 
-.round-pill {
-	border-radius: 50%;
-	padding: .1em .5em;
-}
-
 a {
 	text-decoration: none;
 	color: $green;
+}
+
+.inline {
+	list-style-type: none;
+	margin-left: 0;
+
+	li {
+		display: inline;
+	}
 }

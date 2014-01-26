@@ -10,6 +10,12 @@ Font-face declarations and basic font styles
 .green-background {
 	background: $green;
 	color: $white;
+
+	&.btn {
+		&:hover {
+			background: lighten($green, 5%);
+		}
+	}
 }
 
 .dark-green-background {
@@ -32,6 +38,12 @@ Font-face declarations and basic font styles
 
 .white-background {
 	background: $white;
+}
+
+.purple-background {
+	background: $purple;
+	color: $white;
+	border: darken($purple, 5%);
 }
 
 .green {
